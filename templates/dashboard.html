@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reddit Idea Generator</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        button { padding: 15px 30px; font-size: 18px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Reddit Startup Idea Generator</h1>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">✨ Generate Ideas from r/startups</button>
+    </form>
+</body>
+</html>
